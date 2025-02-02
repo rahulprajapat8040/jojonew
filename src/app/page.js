@@ -12,7 +12,7 @@ import MobileApp from "@/components/home/MobileApp";
 import PricingSection from "@/components/home/PricingSection";
 import FaqsData from "@/components/common/Faqs";
 const HeroData = {
-  heading1: "Enjoy your ride!",
+  heading1: "Enjoy your ride with JOJO!",
   heading2: "Self Ride Bike Rental",
   paragraph:
     "If You are searching Activa on rent in Jaipur and bike or scotty on rent in Jaipur then JoJo Bike Rental has been Giving you the best Rental bike or activa in Jaipur.",
