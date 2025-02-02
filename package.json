@@ -5,9 +5,7 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
-    "export": "next export",
-    "start": "NODE_ENV=production node server.js",
-    "analyze": "cross-env ANALYZE=true next build",
+    "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
