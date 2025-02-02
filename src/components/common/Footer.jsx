@@ -176,9 +176,9 @@ const Footer = () => {
                         </div>
                         <div className="space-y-3">
                             <p className="text-gray-600 leading-relaxed">
-                                JoJo Travel GANPATI PLAZA 68, near Gulab Ji chai, Sindhi Camp, Jaipur, Rajasthan 302001
+                                Park House, Plot No 2, Mirza Ismail Rd, near GANPATI PLAZA, near Sindhi Camp, Sindhi Camp, Jaipur, Rajasthan 302001
                             </p>
-                            <Link href="https://maps.app.goo.gl/r6WEyfYY1tntUhui8"
+                            <Link href="https://maps.app.goo.gl/xNe4HALFpxkUAv8e8"
                                 target="_blank"
                                 className="inline-flex items-center text-primaryColor hover:text-primaryColor/80 transition-colors gap-2 group w-fit">
                                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
