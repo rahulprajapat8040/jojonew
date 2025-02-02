@@ -176,7 +176,7 @@ const Footer = () => {
                         </div>
                         <div className="space-y-3">
                             <p className="text-gray-600 leading-relaxed">
-                                Park House, Plot No 2, Mirza Ismail Rd, near GANPATI PLAZA, near Sindhi Camp, Sindhi Camp, Jaipur, Rajasthan 302001
+                            Branch office :- Park House, Plot No 2, Mirza Ismail Rd, near GANPATI PLAZA, near Sindhi Camp, Sindhi Camp, Jaipur, Rajasthan 302001
                             </p>
                             <Link href="https://maps.app.goo.gl/xNe4HALFpxkUAv8e8"
                                 target="_blank"
