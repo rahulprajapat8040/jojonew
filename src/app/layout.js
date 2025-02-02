@@ -60,7 +60,7 @@ export default function RootLayout({ children }) {
             </svg>
           </a>
           <a
-            href="tel:0850327210"
+            href="tel:08503027210"
             className="bg-blue-500 p-3 rounded-full shadow-lg hover:scale-105 transition-transform"
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 16 16">
