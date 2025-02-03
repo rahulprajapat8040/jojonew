@@ -34,11 +34,11 @@ export const metadata = {
 
 const AboutJojoBikes = () => {
     const HeroData = {
-        title: "ABOUT JOJO Bike Rental",
-        para0: "In These days of owning an Activa are long gone. The new Future of booking on the go and renting is here. And it is here to stay. Activa on rent in Jaipur and Bike on rent in Jaipur are the new age passions. JoJo BIkes, a startup created with the vision of making transportation hassle-free, affordable and efficient.",
-        para1: 'If You are searching Activa on rent in Jaipur and bike or scotty on rent in Jaipur then JoJo Bikes has been Giving you the best Rental bike or activa in Jaipur. We are now expanding to Rajasthan For Activa and scooty for rent in Jaipur We have range of Activa and bikes, Jojo bike rental is committed to customer satisfaction. JOJo Bikes provides Activa on rent in Jaipur, Bieks on rent in Jaipur,',
-        para2: 'Monthly scooty and bike rental in jaipur and activa on rent in Jaipur is very reasonable and In ,If You think for Rental bikes “which is the bike rental near me” query would lead you straight to JOJo BIkeswith reasonable prices, we don’t need to hard documentation requirement, and 24X7 servicing makes JoJO Bikes ',
-        para3: 'IMonthly JoJo bike rental would enable to Our Guest to Check out the service over a reliable period of time. Not only would it be easy on the Price but it would also make the daily commute hassle-free and consequently save the customer both time and money. ',
+        title: "Discover JOJO Bike Rental",
+        para0: "Experience the freedom of exploring Jaipur with JOJO Bike Rental. Our service offers a wide range of well-maintained bikes and scooters, ensuring a smooth and enjoyable ride through the vibrant streets of the city.",
+        para1: 'At JOJO Bike Rental, we prioritize customer satisfaction by providing affordable rental options without compromising on quality. Whether you need an Activa or a bike, our fleet is designed to meet your needs, making your journey hassle-free and enjoyable.',
+        para2: 'Our monthly rental plans are tailored to provide you with the best value for your money. With no hidden fees and flexible terms, renting a bike or scooter in Jaipur has never been easier. Enjoy the convenience of 24/7 support and quick service whenever you need it.',
+        para3: 'Join countless satisfied customers who have chosen JOJO Bike Rental for their rental needs. Our commitment to excellence and customer service ensures that you have a reliable and enjoyable experience every time you rent with us. Discover the joy of riding with JOJO Bike Rental today!',
         image: '/assets/about-us-side-image.jpg'
     }
 

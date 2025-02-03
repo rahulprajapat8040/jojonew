@@ -44,7 +44,7 @@ const MobileApp = () => {
                                     <div className="max-w-xl">
                                         <li className="px-2 md:px-4 text-lg md:text-xl font-semibold">Download Our App</li>
                                         <p className="px-2 md:px-4 text-sm md:text-base text-gray-600">
-                                            Incididunt ut labore et dolore magna aliqua ust enim veniam quis nostrud.
+                                            Easily download our app from the Google Play Store to get started with your rental experience.
                                         </p>
                                     </div>
                                 </div>
@@ -54,7 +54,7 @@ const MobileApp = () => {
                                     <div className="max-w-xl">
                                         <li className="px-2 md:px-4 text-lg md:text-xl font-semibold">Instant Rentals, Feel Good</li>
                                         <p className="px-2 md:px-4 text-sm md:text-base text-gray-600">
-                                            Exercitation ullamco laboris nisi ut aliquip sed duis aute irure dolor in reprehend.
+                                            Browse our extensive selection of rental options and book instantly, ensuring a seamless and enjoyable experience.
                                         </p>
                                     </div>
                                 </div>
@@ -64,12 +64,12 @@ const MobileApp = () => {
                                     <div className="max-w-xl">
                                         <li className="px-2 md:px-4 text-lg md:text-xl font-semibold">With GPS Support</li>
                                         <p className="px-2 md:px-4 text-sm md:text-base text-gray-600">
-                                            Occaecat cupidatat non proident sunt clpa qui officia deserunt mollit.
+                                            Utilize our GPS support feature to easily locate your rental and navigate to your destination without any hassle.
                                         </p>
                                     </div>
                                 </div>
                             </ol>
-                            <div className="mt-8 md:mt-12 flex flex-col sm:flex-row gap-4">
+                            <div className="mt-8 md:mt-12 flex  sm:flex-row gap-4">
                                 <a href="https://play.google.com/store/apps/details?id=com.jojorental.customer&hl=en_US" target='_blank' className="inline-flex items-center px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -99,7 +99,7 @@ const MobileApp = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="mt-8 md:mt-12 flex flex-col sm:flex-row gap-4">
+                            <div className="mt-8 md:mt-12 flex justify-center  md:justify-start flex-row gap-4">
                                 <button 
                                 onClick={() => setIsModalOpen(true)}
                                 className="inline-flex items-center px-6 py-3 bg-primaryColor text-white rounded-lg hover:bg-gray-800 transition-colors">

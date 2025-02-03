@@ -36,7 +36,7 @@ const Testimonial = ({ data }) => {
                   {data.map((testimonial) => (
                     <div
                       key={testimonial.id}
-                      className="w-[300px] sm:w-[350px] flex-shrink-0 p-6 bg-white border-2 rounded-lg shadow-lg"
+                      className="w-[300px] sm:w-[350px] flex-shrink-0 p-6 bg-white border-2 rounded-lg h shadow-lg"
                       style={{ margin: "0 1rem" }}
                     >
                       <div className="flex items-center mb-4">

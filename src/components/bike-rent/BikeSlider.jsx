@@ -86,7 +86,7 @@ const BikeSlider = ({ BikesData }) => {
                             >
                                 <div className="flex w-full flex-col md:flex-row items-center justify-between gap-16">
                                     {/* Image Section */}
-                                    <motion.div 
+                                    <motion.div
                                         variants={contentVariants}
                                         className="w-full md:w-1/2 relative group"
                                     >
@@ -104,7 +104,7 @@ const BikeSlider = ({ BikesData }) => {
                                     </motion.div>
 
                                     {/* Content Section */}
-                                    <motion.div 
+                                    <motion.div
                                         variants={contentVariants}
                                         className="w-full md:w-1/2 space-y-6"
                                     >
@@ -131,29 +131,6 @@ const BikeSlider = ({ BikesData }) => {
                         )}
                     </AnimatePresence>
 
-                    {/* Navigation Buttons */}
-                    <div className="absolute top-1/2 -translate-y-1/2 w-full flex justify-between px-4 pointer-events-none">
-                        <motion.button
-                            whileHover={{ scale: 1.1 }}
-                            whileTap={{ scale: 0.9 }}
-                            onClick={handlePrevious}
-                            className="w-12 h-12 rounded-full bg-black text-white shadow-lg flex items-center justify-center pointer-events-auto transition-all duration-300"
-                        >
-                            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-                            </svg>
-                        </motion.button>
-                        <motion.button
-                            whileHover={{ scale: 1.1 }}
-                            whileTap={{ scale: 0.9 }}
-                            onClick={handleNext}
-                            className="w-12 h-12 rounded-full bg-black text-white shadow-lg flex items-center justify-center pointer-events-auto transition-all duration-300"
-                        >
-                            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                            </svg>
-                        </motion.button>
-                    </div>
 
                     {/* Slide Indicators */}
                     <div className="flex justify-center mt-12">
@@ -168,11 +145,10 @@ const BikeSlider = ({ BikesData }) => {
                                         setCurrentSlide(index)
                                         setIsExpanded(false)
                                     }}
-                                    className={`transition-all duration-300 ${
-                                        currentSlide === index 
+                                    className={`transition-all duration-300 ${currentSlide === index
                                             ? 'w-8 h-2 bg-black'
                                             : 'w-2 h-2 bg-neutral-200 hover:bg-neutral-300'
-                                    } rounded-full`}
+                                        } rounded-full`}
                                 />
                             ))}
                         </div>

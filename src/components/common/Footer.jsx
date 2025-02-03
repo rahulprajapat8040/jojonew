@@ -31,7 +31,7 @@ const socialIcons = {
 const Footer = () => {
     return (
         <footer className="bg-gradient-to-b from-white to-gray-100 via-white border-t">
-            <div className="max-w-7xl mx-auto px-4 py-16">
+            <div className="max-w-7xl mx-auto px-4 pt-16">
                 {/* Upper Section with Logo and Description */}
                 <div className="flex flex-col items-center text-center mb-16 space-y-6">
                     <Link href="/" className="block">
@@ -46,25 +46,10 @@ const Footer = () => {
                     <p className="text-gray-600 max-w-2xl text-lg">
                         Experience the freedom of two-wheel travel with Jojo Bikes. We provide premium bike and scooter rental services in Jaipur with exceptional customer service.
                     </p>
-                    <div className="flex gap-4">
-                        {Object.entries(socialIcons).map(([platform, { icon, color }]) => (
-                            <Link key={platform}
-                                target="_blank"
-                                href={`https://${platform === 'x' ? 'twitter' : platform}.com/${platform === 'x' ? 'jojotravel_' : 'jojotravel.in'}`}
-                                className="bg-white p-3 rounded-full shadow-md hover:shadow-lg hover:scale-110 transition-all duration-300 group"
-                                style={{
-                                    '--hover-color': color,
-                                }}>
-                                <div className="hover:text-[var(--hover-color)] group-hover:bg-opacity-10 rounded-full">
-                                    {icon}
-                                </div>
-                            </Link>
-                        ))}
-                    </div>
                 </div>
 
                 {/* Main Grid Section */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-12 gap-y-8 mb-16">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-12 gap-y-8 mb-3">
                     {/* Quick Links */}
                     <div className="space-y-4 lg:border-r lg:border-gray-100 lg:pr-8">
                         <h3 className="text-xl font-bold text-gray-800 after:content-[''] after:block after:w-12 after:h-0.5 after:bg-primaryColor after:mt-2">
@@ -84,6 +69,21 @@ const Footer = () => {
                                     {link}
                                 </Link>
                             ))}
+                            <div className="flex gap-4">
+                        {Object.entries(socialIcons).map(([platform, { icon, color }]) => (
+                            <Link key={platform}
+                                target="_blank"
+                                href={`https://${platform === 'x' ? 'twitter' : platform}.com/${platform === 'x' ? 'jojotravel_' : 'jojotravel.in'}`}
+                                className="bg-white p-3 rounded-full shadow-md hover:shadow-lg hover:scale-110 transition-all duration-300 group"
+                                style={{
+                                    '--hover-color': color,
+                                }}>
+                                <div className="hover:text-[var(--hover-color)] group-hover:bg-opacity-10 rounded-full">
+                                    {icon}
+                                </div>
+                            </Link>
+                        ))}
+                    </div>
                         </div>
                     </div>
 
@@ -116,6 +116,7 @@ const Footer = () => {
                                 </svg>
                                 <span className="hover:translate-x-1 transition-transform">info@jojobikerental.com</span>
                             </a>
+                            
                         </div>
                     </div>
 
@@ -192,7 +193,7 @@ const Footer = () => {
                 </div>
 
                 {/* Copyright Section */}
-                <div className="border-t border-gray-200 pt-8">
+                <div className="border-t border-gray-200 py-4">
                     <p className="text-center text-gray-600">
                         © {new Date().getFullYear()} Jojo Bike Rental Jaipur.
                     </p>

@@ -72,7 +72,7 @@ const Hero = ({ data }) => {
                 loop
                 muted
                 playsInline
-                className="absolute top-0 left-0 w-full h-full object-cover "
+                className="absolute top-0 left-0 w-full h-full object-fill"
             >
                 <source src={data.videoUrl} type="video/mp4" />
             </video>
@@ -91,7 +91,7 @@ const Hero = ({ data }) => {
                 {/* Scroll Indicator */}
                 <div
                     onClick={handleScrollClick}
-                    className={`fixed bottom-8 cursor-pointer transition-all duration-500 ${showScrollIndicator ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
+                    className={`fixed left-8 bottom-8 cursor-pointer transition-all duration-500 ${!isAtTop ? 'opacity-100' : 'opacity-0'
                         }`}
                 >
                     <div className="flex flex-col items-center text-black">
@@ -111,9 +111,6 @@ const Hero = ({ data }) => {
                                 />
                             </svg>
                         </div>
-                        <span className="text-sm mt-2">
-                            {isAtTop ? 'Scroll Down' : 'Scroll Up'}
-                        </span>
                     </div>
                 </div>
             </div>

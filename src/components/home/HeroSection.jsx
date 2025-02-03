@@ -29,7 +29,7 @@ const HeroSection = ({ data }) => {
             loop
             muted
             playsInline
-            className="absolute top-0 left-0 w-full h-full object-cover"
+            className="absolute top-0 left-0 w-full h-full object-fill md:object-cover"
           >
             <source src={data.videoUrl} type="video/mp4" />
           </video>
@@ -41,7 +41,7 @@ const HeroSection = ({ data }) => {
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="max-w-3xl relative z-20 text-center">
               <div className="h-1 w-24 bg-primaryColor mb-8 " />
-              <h1 className="text-6xl md:text-7xl font-bold text-primaryColor mb-4">
+              <h1 className="text-5xl md:text-7xl font-bold text-primaryColor mb-4">
                 {data.heading1}
               </h1>
               <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
@@ -53,12 +53,12 @@ const HeroSection = ({ data }) => {
               <div className="flex justify-center gap-6">
                 <button
                   onClick={() => setIsModalOpen(true)}
-                  className="px-10 py-4 bg-primaryColor text-black rounded-full font-semibold"
+                  className="px-6 md:px-10 py-4 bg-primaryColor text-black rounded-lg font-semibold"
                 >
                   Rent Now
                 </button>
                 <Link href={'tel: 8503027210'}>
-                  <button className="px-10 py-4 border-2 border-primaryColor text-primaryColor rounded-full font-semibold">
+                  <button className="px-6 md:px-10 py-4 border-2 border-primaryColor text-primaryColor rounded-lg font-semibold">
                     Call Now
                   </button>
                 </Link>

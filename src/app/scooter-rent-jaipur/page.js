@@ -38,25 +38,30 @@ export const metadata = {
 const BikeRentInJaipur = () => {
 
     const BikesData = [
-
         {
             title: `
-activa on rent in Jaipur
-Activa on Rent in Jaipur - Jojo bike rental
+Explore Jaipur with Honda Activa Rentals
+Experience the Best of Jaipur with Jojo Bike Rentals
 `,
             para: `
+Discover the vibrant city of Jaipur with our premium Honda Activa rentals. Whether you're visiting historical landmarks or exploring the bustling markets, the Activa is the perfect companion for your journey. With its smooth handling and compact design, navigating through the city's narrow lanes and crowded streets becomes a breeze. 
 
-Activa is the best option to travel to the city. Are you planning to explore the beauty of Jaipur, and you don't have a vehicle? Don't worry! Get an activa on rent in Jaipur or freely enjoy your in-city Jaipur ride. Riding an activa in Jaipur is an experience in itself because it can pass smoothly from crowded places and can also go in small areas so you can explore the unseen Jaipur.
-\n
-Jaipur is the capital city of Rajasthan state and is famous for its tradition and royal history. Jojo bike rental provides a wide range of activa on rent in Jaipur to enjoy the actual flavor of Rajasthan. Jojo bike rental provides activa in excellent condition for a smooth riding experience and proper safety gear like helmets at a very affordable price because customer satisfaction and safety are our priority. `,
+At Jojo Bike Rentals, we prioritize your comfort and safety. Our Activas are meticulously maintained and come equipped with essential safety gear, including helmets. Enjoy the freedom of exploring Jaipur at your own pace, stopping at iconic sites like the Hawa Mahal, City Palace, and Amber Fort. 
+
+Renting an Activa not only saves you time but also provides a cost-effective solution for your travel needs. With flexible rental plans and competitive pricing, we ensure that your experience is both enjoyable and affordable. Join countless satisfied customers who have made their Jaipur adventure unforgettable with Jojo Bike Rentals. Book your Honda Activa today and embark on a memorable journey through the Pink City!
+`,
             img: '/assets/activa-on-rent-in-jaipur.jpg'
         },
         {
-            title: `Scooty On Rent in Jaipur - Jojo bike rental`,
-            para: `Traveling is the main factor when visiting and exploring places in Jaipur. Scooty can smoothly go in crowded places, and it is easy to maintain a Scooty for in-city rides. Riding a Scooty in the city has several benefits as it has storage space where you can store your items. In Jaipur, if you want to explore the unseen corners of Jaipur, renting a Scooty is the best option for this. We are offering the Scooty on rent in Jaipur. We have a wide range of different Scooty at different and affordable price points. Providing the Scooty in the best condition to our customers is always our main priority. `,
+            title: `Scooty Rentals: Your Gateway to Jaipur's Hidden Gems`,
+            para: `Unleash the explorer in you with our Scooty rentals in Jaipur. Scooties are not just convenient; they offer the perfect blend of agility and comfort for navigating the city's vibrant streets. With ample storage space and easy maneuverability, you can effortlessly visit popular attractions and discover hidden gems off the beaten path. 
+
+At Jojo Bike Rentals, we provide a diverse fleet of well-maintained Scooties, ensuring you have a reliable ride for your adventures. Our rental process is straightforward, allowing you to focus on enjoying your time in Jaipur without the hassle of public transport. 
+
+Experience the rich culture, stunning architecture, and delicious cuisine of Jaipur while riding a Scooty that suits your style. Our competitive pricing and excellent customer service make us the preferred choice for travelers seeking a hassle-free rental experience. Rent a Scooty today and make the most of your Jaipur journey!
+`,
             img: '/assets/scooty-on-rent-in-jaipur.jpg'
         },
-
     ]
 
     const BikesOnRent = {
@@ -130,7 +135,12 @@ Jaipur is the capital city of Rajasthan state and is famous for its tradition an
             id: 1,
             title: `Explore Jaipur with Scooty On Rent in Jaipur`,
             description: `
-If you are a Traveler, traveling to Jaipur must be on your Checklist. Exploring famous places is easy to explore with the Scooty. Riding with Scooty can help us to explore the unseen corners of the Jaipur. What is better than getting a Scooty on rent in Jaipur for this? You can save time money and get a Scooty immediately by renting. Jojo bike rental is the perfect place where you will get the Scooty in the best condition with proper documentation for a hassle-free ride for our customers. You can explore the beauty of Pink city on the various variety of Scooty at the best affordable prices. `
+Traveling to Jaipur is an adventure waiting to unfold, and what better way to explore this magnificent city than with a Scooty rental? Scooties offer the perfect solution for navigating Jaipur's bustling streets and hidden corners. With the freedom to roam at your own pace, you can visit iconic landmarks like the Hawa Mahal and the City Palace, or venture into the lesser-known areas that showcase the city's rich culture and history.
+
+At Jojo Bike Rentals, we understand the importance of convenience and comfort. Our Scooties are well-maintained and come equipped with essential safety gear, ensuring a secure and enjoyable ride. Whether you're traveling solo or with friends, renting a Scooty allows you to experience Jaipur in a unique and personal way.
+
+Our rental process is simple and efficient, allowing you to focus on creating unforgettable memories. With competitive pricing and a commitment to customer satisfaction, Jojo Bike Rentals is your go-to choice for exploring the Pink City. Don't miss out on the opportunity to discover Jaipur's beauty and charm—rent a Scooty today and embark on an unforgettable journey!
+`
         },
         {
             id: 2,
