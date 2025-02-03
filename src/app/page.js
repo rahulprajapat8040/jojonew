@@ -363,49 +363,49 @@ const OurTestiMonials = [
 const GalleryData = [
   {
     id: 1,
-    image: "/assets/jojo-bike-ktm-duke.jpg",
+    image: "/assets/jojo-gall-img1.jpeg",
     name: "KTM Duke",
   },
   {
     id: 2,
-    image: "/assets/jojo-bike-royal-enfield.jpg",
+    image: "/assets/jojo-bike-gall-2.jpeg",
     name: "Classic 350"
   },
   {
     id: 3,
-    image: "/assets/jojo-bike-ktm.jpg",
+    image: "/assets/jojo-gall-img-3.jpeg",
     name: "KTM Duke",
   },
   {
     id: 4,
-    image: "/assets/jojo-activa.jpg",
+    image: "/assets/jojo-gall-img-4.jpeg",
     name: "Honda Activa"
   },
   {
     id: 5,
-    image: "/assets/jojo-activa-125.jpg",
+    image: "/assets/jojo-gall-img-5.jpeg",
     name: "Activa 125"
   },
   {
     id: 6,
-    image: "/assets/jojo-bajaz-sport.jpg",
+    image: "/assets/jojo-gall-img-6.jpeg",
     name: "Bajaj Sports"
   },
   {
     id: 7,
-    image: "/assets/2024-11-26.jpg"
+    image: "/assets/jojo-gall-img-7.jpeg"
   },
   {
     id: 8,
-    image: "/assets/2023-11-03.jpg"
+    image: "/assets/jojo-gall-img-8.jpeg"
   },
   {
     id: 9,
-    image: "/assets/2023-11-03-01.jpg"
+    image: "/assets/jojo-gall-img-9.jpeg"
   },
   {
     id: 10,
-    image: "/assets/2024-11-08.jpg"
+    image: "/assets/jojo-gall-img-10.jpeg"
   },
 
 ]

@@ -72,7 +72,7 @@ const Hero = ({ data }) => {
                 loop
                 muted
                 playsInline
-                className="absolute top-0 left-0 w-full h-full object-fill"
+                className="absolute top-0 left-0 w-full aspect-[3/2] h-full object-cover"
             >
                 <source src={data.videoUrl} type="video/mp4" />
             </video>

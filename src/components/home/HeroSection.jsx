@@ -23,13 +23,13 @@ const HeroSection = ({ data }) => {
     <>
       <section ref={sectionRef} className="min-h-screen relative overflow-hidden">
         {/* Video Background with Overlay */}
-        <div className="absolute inset-0 w-full h-full">
+        <div className="absolute inset-0 aspect-video w-full h-full">
           <video
             autoPlay
             loop
             muted
             playsInline
-            className="absolute top-0 left-0 w-full h-full object-fill md:object-cover"
+            className="absolute top-0 left-0 w-full h-full  object-cover object-[-600px] sm:object-[0] md:object-cover"
           >
             <source src={data.videoUrl} type="video/mp4" />
           </video>
