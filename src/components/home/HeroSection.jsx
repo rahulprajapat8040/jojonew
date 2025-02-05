@@ -57,7 +57,7 @@ const HeroSection = ({ data }) => {
                 >
                   Rent Now
                 </button>
-                <Link href={'tel: 8503027210'}>
+                <Link href={'tel: 08503027210'}>
                   <button className="px-6 md:px-10 py-4 border-2 border-primaryColor text-primaryColor rounded-lg font-semibold">
                     Call Now
                   </button>
