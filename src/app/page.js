@@ -16,7 +16,7 @@ const HeroData = {
   heading2: "Self Ride Bike Rental",
   paragraph:
     "If You are searching Activa on rent in Jaipur and bike or scotty on rent in Jaipur then JoJo Bike Rental has been Giving you the best Rental bike or activa in Jaipur.",
-  videoUrl: "/assets/8070865-uhd_3840_2160_24fps.mp4"
+  videoUrl: "/assets/8070865-uhd_3840_2160_24fps.mp4",
 };
 
 const WhyJojo = [
@@ -64,7 +64,7 @@ const WhyJojo = [
 ];
 
 const RentalBikes = {
-  title: 'Rental Bikes',
+  title: "Rental Bikes",
   // subTitle: 'Best Offer of The Day',
   Bikes: [
     // Activa/Scooty Type
@@ -304,8 +304,8 @@ const RentalBikes = {
 
       Passenger: "2",
       image: "/assets/2-wheeler-on-rent-in-jaipur.png",
-    }
-  ]
+    },
+  ],
 };
 
 const OurTestiMonials = [
@@ -314,49 +314,49 @@ const OurTestiMonials = [
     title: "Aman",
     description:
       "I had an amazing experience renting a bike from JOJO BIKE RENTAL, The staff was super friendly and helpful, and the bike was in great condition. The rental process was seamless and easy, and they provided me with a helmet for added safety. The bike was perfect for exploring the city, and I loved the freedom to ride wherever I wanted. The prices were also very reasonable. I would highly recommend JOJO BIKE RENTAL to anyone looking to rent a bike. I`ll definitely be back!`",
-    image: '/assets/user1.avif'
+    image: "/assets/user1.avif",
   },
   {
     id: "2",
     title: "Varun",
     description:
       "Jojo Bike Rental is best destination if you want scooters and activa on hire. The services is really good. They are very professional and offers you cool rides at reasonable prices. If you want to travel intercity or intracity then in both the cases you can contact them.",
-    image: '/assets/profileImg.jpeg'
+    image: "/assets/profileImg.jpeg",
   },
   {
     id: "3",
     title: "Navya",
     description:
       "It's really great experience with Jojo nd actually thankful I meet a genuine agency prices are really affordable and planning with Jojo is so comfortable and flexible 😊😊",
-    image: '/assets/user02.jpg'
+    image: "/assets/user02.jpg",
   },
   {
     id: "4",
     title: "Mannan Ali",
     description:
       "Amazing experience with JoJo Bike Rental, and his team are very accommodating and honest. Their prices are reasonable and service is Good. They even went to the length to refund me for the additional fuel I left when returning the bike. Overall I believe this this is the best service in Jaipur and will recommend others looking to hire Motorbikes in Jaipur to use this company.",
-    image: '/assets/user03.jpg'
+    image: "/assets/user03.jpg",
   },
   {
     id: "5",
     title: "Ankush",
     description:
       "Good service, Decent price. The quality of the Vehicle was good. However the helmet we received had a broken visor which was an annoyance while driving. All over a good deal.",
-    image: '/assets/unnamed.png'
+    image: "/assets/unnamed.png",
   },
   {
     id: "6",
     title: "Deep Shikha",
     description:
       "Great bike rental service! The booking was easy, the bike was in excellent condition, and the staff was friendly and helpful. It was a perfect way to explore the area, a smooth experience overall. Highly recommend!",
-    image: '/assets/unnamed1.png'
+    image: "/assets/unnamed1.png",
   },
   {
     id: "7",
     title: "Deep Shikha",
     description:
       "I had a fantastic experience with Jojo Bike Rental! The scooter I rented was in excellent condition, making my ride smooth and enjoyable throughout the day. The staff, including the owner, were incredibly friendly and welcoming. They were not only helpful with local insights but went above and beyond by offering to pick me up from my hotel to save time. It’s clear they truly care about their customers’ experience. Highly recommend Jojo Bike Rental for anyone looking for reliable, well-maintained scooters and exceptional service!",
-    image: '/assets/unnamed3.png'
+    image: "/assets/unnamed3.png",
   },
 ];
 
@@ -369,7 +369,7 @@ const GalleryData = [
   {
     id: 2,
     image: "/assets/jojo-bike-gall-2.jpeg",
-    name: "Classic 350"
+    name: "Classic 350",
   },
   {
     id: 3,
@@ -379,63 +379,87 @@ const GalleryData = [
   {
     id: 4,
     image: "/assets/jojo-gall-img-4.jpeg",
-    name: "Honda Activa"
+    name: "Honda Activa",
   },
-  {
-    id: 5,
-    image: "/assets/jojo-gall-img-5.jpeg",
-    name: "Activa 125"
-  },
+  // {
+  //   id: 5,
+  //   image: "/assets/jojo-gall-img-5.jpeg",
+  //   name: "Activa 125"
+  // },
   {
     id: 6,
     image: "/assets/jojo-gall-img-6.jpeg",
-    name: "Bajaj Sports"
+    name: "Bajaj Sports",
   },
   {
     id: 7,
-    image: "/assets/jojo-gall-img-7.jpeg"
+    image: "/assets/jojo-gall-img-7.jpeg",
   },
   {
     id: 8,
-    image: "/assets/jojo-gall-img-8.jpeg"
+    image: "/assets/jojo-gall-img-8.jpeg",
   },
   {
     id: 9,
-    image: "/assets/jojo-gall-img-9.jpeg"
+    image: "/assets/jojo-gall-img-9.jpeg",
   },
   {
     id: 10,
-    image: "/assets/jojo-gall-img-10.jpeg"
+    image: "/assets/jojo-gall-img-10.jpeg",
   },
-
-]
+  {
+    id: 11,
+    image: "/assets/JOJOHAPPY-CLIENT-1.jpg",
+  },
+  {
+    id: 12,
+    image: "/assets/JOJO-HAPPY-COUSTMER-2.jpg",
+  },
+  {
+    id: 13,
+    image: "/assets/JOJO-HAPPY-COUSTMER-3.jpg"
+  },
+  {
+    id: 14,
+    image: "/assets/JOJO-HAPPY-CLIENT-5.jpg"
+  },
+  {
+    id: 15,
+    image: "/assets/JOJO-HAPPY-CLIENT-6.jpg"
+  }
+];
 
 const Faqs = [
   {
     qustion: "What are the various plans avaible?",
-    answer: "Hassle-free booking, home delivery, activa maintenance and much more at great prices are available."
+    answer:
+      "Hassle-free booking, home delivery, activa maintenance and much more at great prices are available.",
   },
   {
     qustion: "What if i want to extend my booking",
-    answer: "If you want to extend your booking, you can call us for it. Booking extension is extra payable."
+    answer:
+      "If you want to extend your booking, you can call us for it. Booking extension is extra payable.",
   },
   {
     qustion: "Is Fuel Included In The package?",
-    answer: "No, fuel will not provide in the package. We will add a minimal amount of petrol to reach the fuel station."
+    answer:
+      "No, fuel will not provide in the package. We will add a minimal amount of petrol to reach the fuel station.",
   },
   {
     qustion: "Will I have to pay for the helmet?",
-    answer: "No, you do not have to pay extra for the helmet. The helmet is complimentary from JOJO Bike Rental."
+    answer:
+      "No, you do not have to pay extra for the helmet. The helmet is complimentary from JOJO Bike Rental.",
   },
   {
     qustion: "Documents required for activa renting",
-    answer: "Documents required for Activa renting are - ID proof and Driving Licence (Original). In case you are unable to show documents, the booking will cancel."
+    answer:
+      "Documents required for Activa renting are - ID proof and Driving Licence (Original). In case you are unable to show documents, the booking will cancel.",
   },
   {
     qustion: "How many kilometers can i Ride?",
-    answer: "You can ride up to 100 Kilometers a day."
-  }
-]
+    answer: "You can ride up to 100 Kilometers a day.",
+  },
+];
 
 export default function Home() {
   return (
@@ -453,34 +477,38 @@ export default function Home() {
 }
 export const generateMetadata = () => {
   return {
-    metadataBase: new URL('https://www.jojobikerental.in'),
-    title: 'Jojo bike rental - Bike & Scooty Rental Services in Jaipur',
-    description: 'Looking for bike or scooty rental in Jaipur? Jojo bike rental offers affordable two-wheeler rentals with 24/7 assistance. Wide range of vehicles including Activa, KTM Duke & Royal Enfield. Best rates guaranteed for bike hire in Jaipur.',
-    keywords: 'bike on rent in jaipur, scooty on rent in jaipur, scooty rental in jaipur, two wheeler on rent in jaipur, bike hire in jaipur, bike in rent jaipur, hire a bike in jaipur, jaipur two wheeler on rent, motorcycle on rent in jaipur, motorcycle rental jaipur, rent for bike in jaipur, rent on bike jaipur',
+    metadataBase: new URL("https://www.jojobikerental.in"),
+    title: "Jojo bike rental - Bike & Scooty Rental Services in Jaipur",
+    description:
+      "Looking for bike or scooty rental in Jaipur? Jojo bike rental offers affordable two-wheeler rentals with 24/7 assistance. Wide range of vehicles including Activa, KTM Duke & Royal Enfield. Best rates guaranteed for bike hire in Jaipur.",
+    keywords:
+      "bike on rent in jaipur, scooty on rent in jaipur, scooty rental in jaipur, two wheeler on rent in jaipur, bike hire in jaipur, bike in rent jaipur, hire a bike in jaipur, jaipur two wheeler on rent, motorcycle on rent in jaipur, motorcycle rental jaipur, rent for bike in jaipur, rent on bike jaipur",
     openGraph: {
-      title: 'Jojo bike rental - Best Bike & Scooty Rental in Jaipur',
-      description: 'Trusted bike and scooty rental service in Jaipur offering well-maintained vehicles at reasonable prices. Book hassle-free two-wheeler rentals with 24/7 support.',
-      type: 'website',
-      url: 'https://www.jojobikerental.in',
+      title: "Jojo bike rental - Best Bike & Scooty Rental in Jaipur",
+      description:
+        "Trusted bike and scooty rental service in Jaipur offering well-maintained vehicles at reasonable prices. Book hassle-free two-wheeler rentals with 24/7 support.",
+      type: "website",
+      url: "https://www.jojobikerental.in",
       images: [
         {
-          url: '/assets/jojo-bike-og-image.png',
+          url: "/assets/jojo-bike-og-image.png",
           width: 1200,
           height: 630,
-          alt: 'Jojo Bikes Rental Services Jaipur'
-        }
+          alt: "Jojo Bikes Rental Services Jaipur",
+        },
       ],
-      locale: 'en_IN',
-      siteName: 'Jojo bike rental'
+      locale: "en_IN",
+      siteName: "Jojo bike rental",
     },
     twitter: {
-      card: 'summary_large_image',
-      title: 'Jojo bike rental - Bike & Scooty Rental in Jaipur',
-      description: 'Affordable bike and scooty rentals in Jaipur with 24/7 support. Wide range of well-maintained vehicles available.',
-      images: ['/assets/jojo-bike-og-image.png'],
+      card: "summary_large_image",
+      title: "Jojo bike rental - Bike & Scooty Rental in Jaipur",
+      description:
+        "Affordable bike and scooty rentals in Jaipur with 24/7 support. Wide range of well-maintained vehicles available.",
+      images: ["/assets/jojo-bike-og-image.png"],
     },
     alternates: {
-      canonical: 'https://www.jojobikerental.in'
-    }
-  }
-}
+      canonical: "https://www.jojobikerental.in",
+    },
+  };
+};

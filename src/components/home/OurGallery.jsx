@@ -1,8 +1,9 @@
 'use client'
 import { motion, useScroll, useTransform } from 'framer-motion'
-import { useRef } from 'react'
+import { useRef, useState } from 'react'
 
 const OurGallery = ({ data }) => {
+    const [visibleItems, setVisibleItems] = useState(7)
     const containerRef = useRef(null)
     const { scrollYProgress } = useScroll({
         target: containerRef,
@@ -10,6 +11,10 @@ const OurGallery = ({ data }) => {
     })
 
     const opacity = useTransform(scrollYProgress, [0, 0.2], [0, 1])
+
+    const handleLoadMore = () => {
+        setVisibleItems(prev => Math.min(prev + 7, data.length))
+    }
 
     return (
         <section className="py-20 mt-8 bg-white">
@@ -32,7 +37,7 @@ const OurGallery = ({ data }) => {
                     style={{ opacity }}
                     className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1"
                 >
-                    {data.map((item, index) => (
+                    {data.slice(0, visibleItems).map((item, index) => (
                         <motion.div
                             key={item.id}
                             initial={{ opacity: 0 }}
@@ -48,6 +53,21 @@ const OurGallery = ({ data }) => {
                         </motion.div>
                     ))}
                 </motion.div>
+
+                {visibleItems < data.length && (
+                    <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        className="text-center mt-8"
+                    >
+                        <button
+                            onClick={handleLoadMore}
+                            className="bg-primaryColor text-white px-6 py-3 rounded-lg hover:bg-opacity-90 transition-colors"
+                        >
+                            Load More
+                        </button>
+                    </motion.div>
+                )}
             </div>
         </section>
     )
