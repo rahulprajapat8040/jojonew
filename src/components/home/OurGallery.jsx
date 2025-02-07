@@ -3,7 +3,7 @@ import { motion, useScroll, useTransform } from 'framer-motion'
 import { useRef, useState } from 'react'
 
 const OurGallery = ({ data }) => {
-    const [visibleItems, setVisibleItems] = useState(7)
+    const [visibleItems, setVisibleItems] = useState(8)
     const containerRef = useRef(null)
     const { scrollYProgress } = useScroll({
         target: containerRef,
@@ -13,7 +13,7 @@ const OurGallery = ({ data }) => {
     const opacity = useTransform(scrollYProgress, [0, 0.2], [0, 1])
 
     const handleLoadMore = () => {
-        setVisibleItems(prev => Math.min(prev + 7, data.length))
+        setVisibleItems(prev => Math.min(prev + 8, data.length))
     }
 
     return (
