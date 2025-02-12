@@ -271,7 +271,7 @@ const BikeRentInJaipur = () => {
     ]
 
     const HeroData = {
-        videoUrl: '/assets/bike-bg.mp4',
+        videoUrl: '/assets/8070865-uhd_3840_2160_24fps.mp4',
         title: 'Rent a Bike at Jojo Bike Rental'
     }
 
