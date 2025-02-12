@@ -477,7 +477,7 @@ export default function Home() {
 }
 export const generateMetadata = () => {
   return {
-    metadataBase: new URL("https://www.jojobikerental.in"),
+    metadataBase: new URL("https://jojobikerental.in"),
     title: "Jojo bike rental - Bike & Scooty Rental Services in Jaipur",
     description:
       "Looking for bike or scooty rental in Jaipur? Jojo bike rental offers affordable two-wheeler rentals with 24/7 assistance. Wide range of vehicles including Activa, KTM Duke & Royal Enfield. Best rates guaranteed for bike hire in Jaipur.",
@@ -488,7 +488,7 @@ export const generateMetadata = () => {
       description:
         "Trusted bike and scooty rental service in Jaipur offering well-maintained vehicles at reasonable prices. Book hassle-free two-wheeler rentals with 24/7 support.",
       type: "website",
-      url: "https://www.jojobikerental.in",
+      url: "https://jojobikerental.in",
       images: [
         {
           url: "/assets/jojo-bike-og-image.png",
@@ -508,7 +508,7 @@ export const generateMetadata = () => {
       images: ["/assets/jojo-bike-og-image.png"],
     },
     alternates: {
-      canonical: "https://www.jojobikerental.in",
+      canonical: "https://jojobikerental.in",
     },
   };
 };

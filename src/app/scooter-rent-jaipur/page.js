@@ -12,7 +12,7 @@ export const metadata = {
         title: 'Scooty & Activa Rentals in Jaipur | Jojo bike rental',
         description: 'Rent Honda Activa & Scooters in Jaipur. Best maintained vehicles, flexible rental plans, and hassle-free booking process.',
         type: 'website',
-        url: 'https://www.jojobikerental.in/scooter-rent-jaipur',
+        url: 'https://jojobikerental.in/scooter-rent-jaipur',
         images: [
             {
                 url: '/assets/scooty-rent-og-image.jpg',
@@ -31,7 +31,7 @@ export const metadata = {
         images: ['/assets/scooty-rent-og-image.jpg']
     },
     alternates: {
-        canonical: 'https://www.jojobikerental.in/scooter-rent-jaipur'
+        canonical: 'https://jojobikerental.in/scooter-rent-jaipur'
     }
 }
 

@@ -9,7 +9,7 @@ export const metadata = {
     title: 'About JOJO Bikes - Leading Bike Rental Service in Jaipur',
     description: 'Learn about JOJO Bikes - your trusted partner for bike rentals in Jaipur. Offering premium fleet selection, doorstep delivery, and hassle-free booking with transparent pricing.',
     type: 'website',
-    url: 'https://www.jojobikerental.in/about-jojo-bike-rental',
+    url: 'https://jojobikerental.in/about-jojo-bike-rental',
     images: [
       {
         url: '/assets/about-us-side-image.jpg',
@@ -28,7 +28,7 @@ export const metadata = {
     images: ['/assets/about-us-side-image.jpg'],
   },
   alternates: {
-    canonical: 'https://www.jojobikerental.in/about-jojo-bike-rental'
+    canonical: 'https://jojobikerental.in/about-jojo-bike-rental'
   }
 }
 

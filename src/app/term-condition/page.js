@@ -1,6 +1,6 @@
 
 export const metadata = {
-    metadataBase: new URL('https://www.jojobikerental.in'),
+    metadataBase: new URL('https://jojobikerental.in'),
     title: 'Terms & Conditions - Jojo bike rental Bike Rental Jaipur',
     description: 'Read our comprehensive terms and conditions for bike and scooty rentals in Jaipur. Includes rental policies, documentation requirements, and accident terms for two-wheeler rentals.',
     keywords: 'bike rental terms jaipur, scooty rental conditions, Jojo bike rental policies, bike hire terms and conditions jaipur, two wheeler rental agreement',
@@ -8,7 +8,7 @@ export const metadata = {
         title: 'Terms & Conditions | Jojo bike rental Bike Rental',
         description: 'Important terms and conditions for renting bikes and scooties from Jojo bike rental in Jaipur. Learn about our policies, documentation requirements, and rental guidelines.',
         type: 'website',
-        url: 'https://www.jojobikerental.in/term-condition',
+        url: 'https://jojobikerental.in/term-condition',
         images: [
             {
                 url: '/assets/jojo-bike-og-image.jpg',
@@ -27,7 +27,7 @@ export const metadata = {
         images: ['/assets/jojo-bike-og-image.jpg'],
     },
     alternates: {
-        canonical: 'https://www.jojobikerental.in/term-condition'
+        canonical: 'https://jojobikerental.in/term-condition'
     }
 }
 

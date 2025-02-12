@@ -12,7 +12,7 @@ export const metadata = {
         title: 'Premium Bike Rentals in Jaipur | Jojo bike rental',
         description: 'Choose from Royal Enfield, KTM, Bullet & Harley Davidson bikes for rent in Jaipur. Best rates, well-maintained bikes, and hassle-free booking.',
         type: 'website',
-        url: 'https://www.jojobikerental.in/bike-rent-in-jaipur',
+        url: 'https://jojobikerental.in/bike-rent-in-jaipur',
         images: [
             {
                 url: '/assets/bike-rent-og-image.jpg',
@@ -31,7 +31,7 @@ export const metadata = {
         images: ['/assets/bike-rent-og-image.jpg']
     },
     alternates: {
-        canonical: 'https://www.jojobikerental.in/bike-rent-in-jaipur'
+        canonical: 'https://jojobikerental.in/bike-rent-in-jaipur'
     }
 }
 

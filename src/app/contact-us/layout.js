@@ -6,7 +6,7 @@ export const metadata = {
         title: 'Contact Us | Jojo bike rental Bike Rental',
         description: 'Reach out to Jojo bike rental for all your bike and scooty rental needs in Jaipur. Easy booking and instant support available.',
         type: 'website',
-        url: 'https://www.jojobikerental.in/contact-us',
+        url: 'https://jojobikerental.in/contact-us',
         images: [
             {
                 url: '/assets/jojo-bike-og-image.jpg',
@@ -25,7 +25,7 @@ export const metadata = {
         images: ['/assets/jojo-bike-og-image.jpg'],
     },
     alternates: {
-        canonical: 'https://www.jojobikerental.in/contact-us'
+        canonical: 'https://jojobikerental.in/contact-us'
     }
 }
 

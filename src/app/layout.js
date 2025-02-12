@@ -10,7 +10,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://www.jojobikerental.in"),
+  metadataBase: new URL("https://jojobikerental.in"),
   title: "Jojo bike rental - Bike & Scooty Rental Services in Jaipur",
   description:
     "Looking for bike or scooty rental in Jaipur? Jojo bike rental offers affordable two-wheeler rentals with 24/7 assistance. Wide range of vehicles including Activa, KTM Duke & Royal Enfield. Best rates guaranteed for bike hire in Jaipur.",
@@ -21,7 +21,7 @@ export const metadata = {
     description:
       "Trusted bike and scooty rental service in Jaipur offering well-maintained vehicles at reasonable prices. Book hassle-free two-wheeler rentals with 24/7 support.",
     type: "website",
-    url: "https://www.jojobikerental.in",
+    url: "https://jojobikerental.in",
     images: [
       {
         url: "/assets/jojo-bike-og-image.png",
@@ -41,25 +41,39 @@ export const metadata = {
     images: ["/assets/jojo-bike-og-image.png"],
   },
   alternates: {
-    canonical: "https://www.jojobikerental.in",
+    canonical: "https://jojobikerental.in",
   },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      {/* <!-- Google Tag Manager --> */}
-      <Script id="gtm-script" strategy="afterInteractive">
-        {`
-            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-PFRL8HQT');
-          `}
-      </Script>
-      {/* <!-- End Google Tag Manager --> */}
+      <head>
+        {/* Google Tag Manager - Data Layer */}
+        <Script id="gtm-datalayer" strategy="beforeInteractive">
+          {`window.dataLayer = window.dataLayer || [];`}
+        </Script>
+
+        {/* Google Tag Manager */}
+        <Script id="gtm-script" strategy="beforeInteractive">
+          {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer','GTM-PFRL8HQT');`}
+        </Script>
+      </head>
       <body className={`${poppins.className} antialiased`}>
+        {/* Google Tag Manager (noscript) */}
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-PFRL8HQT"
+            height="0"
+            width="0"
+            style={{ display: 'none', visibility: 'hidden' }}
+          ></iframe>
+        </noscript>
+
         <Header />
         {children}
         <Footer />
@@ -97,17 +111,6 @@ export default function RootLayout({ children }) {
             </svg>
           </a>
         </div>
-
-        {/* <!-- Google Tag Manager (noscript) --> */}
-        <noscript>
-          <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-PFRL8HQT"
-            height="0"
-            width="0"
-            style="display:none;visibility:hidden"
-          ></iframe>
-        </noscript>
-        {/* <!-- End Google Tag Manager (noscript) --> */}
       </body>
     </html>
   );
