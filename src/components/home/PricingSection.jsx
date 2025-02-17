@@ -19,7 +19,7 @@ export default function PricingSection() {
             <div className="relative z-10 text-center text-white px-4">
                 {/* Title and Subtitle */}
                 <h2 className="text-2xl md:text-4xl font-bold mb-2 md:mb-4">Our Pricing Includes</h2>
-                <p className="text-base md:text-lg mb-6 md:mb-8">Bikes & electric scooters for renting at low prices</p>
+                <p className="text-base md:text-lg mb-6 md:mb-8">Bikes & scooters for renting at low prices</p>
 
                 {/* Features Icons */}
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 md:gap-6 max-w-6xl mx-auto place-items-center">
@@ -50,9 +50,9 @@ export default function PricingSection() {
 }
 
 const features = [
-    { icon: '🛵', label: 'Helmets' },
+    { icon: '⛑️', label: 'Helmets' },
     { icon: '🎧', label: 'Assistance' },
-    { icon: '🔒', label: 'Insurance' },
+    { icon: '📋', label: 'Zero Deposit' },
     { icon: '❌', label: 'Cancellation' },
     { icon: '💰', label: 'Discounts' },
     { icon: '🗺️', label: 'Full Routes' },
