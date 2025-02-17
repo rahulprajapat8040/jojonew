@@ -69,41 +69,41 @@ export default function TermsCondition() {
                     Terms and Conditions
                 </h1>
 
-                <section className="bg-gradient-to-br from-gray-700 to-gray-600 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-                    <h2 className="text-xl font-semibold mb-4 text-white">(A) Documentation</h2>
-                    <p className="text-gray-200 mb-4">
+                <section className="bg-white p-6 rounded-lg border border-gray-400 shadow-lg hover:shadow-xl transition-shadow">
+                    <h2 className="text-xl font-semibold mb-4 text-black">(A) Documentation</h2>
+                    <p className="text-gray-800 mb-4">
                         The documents mentioned below need to be verified, in original, for each rider.
                     </p>
-                    <ul className="list-disc pl-6 text-gray-200 space-y-2">
+                    <ul className="list-disc pl-6 text-gray-800 space-y-2">
                         <li>Document 1: Driving License</li>
                         <li>Document 2: Passport, PAN, Aadhar Card, Corporate ID card, ID card issued to any Govt. employee (Any one of these).</li>
                     </ul>
-                    <p className="mt-4 text-gray-200 italic">
+                    <p className="mt-4 text-gray-800 italic">
                         *Document 2 will be deposited by the customer at the time of pickup and it will be returned during drop off. Failure to furnish the documents will lead to the order being cancelled. No rent refund would be issued in such cases.
                     </p>
                 </section>
 
-                <section className="bg-gradient-to-br from-gray-700 to-gray-600 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-                    <h2 className="text-xl font-semibold mb-4 text-white">(B) Other Terms</h2>
-                    <ul className="list-disc pl-6 text-gray-200 space-y-2">
+                <section className="bg-white p-6 rounded-lg border border-gray-400 shadow-lg hover:shadow-xl transition-shadow">
+                    <h2 className="text-xl font-semibold mb-4 text-black">(B) Other Terms</h2>
+                    <ul className="list-disc pl-6 text-gray-800 space-y-2">
                         {otherTerms.map((term, index) => (
                             <li key={index}>{term}</li>
                         ))}
                     </ul>
                 </section>
 
-                <section className="bg-gradient-to-br from-gray-700 to-gray-600 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-                    <h2 className="text-xl font-semibold mb-4 text-white">(C) Rental Policy</h2>
-                    <ul className="list-disc pl-6 text-gray-200 space-y-2">
+                <section className="bg-white p-6 rounded-lg border border-gray-400 shadow-lg hover:shadow-xl transition-shadow">
+                    <h2 className="text-xl font-semibold mb-4 text-black">(C) Rental Policy</h2>
+                    <ul className="list-disc pl-6 text-gray-800 space-y-2">
                         {rentalPolicies.map((policy, index) => (
                             <li key={index}>{policy}</li>
                         ))}
                     </ul>
                 </section>
 
-                <section className="bg-gradient-to-br from-gray-700 to-gray-600 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-                    <h2 className="text-xl font-semibold mb-4 text-white">(D) In Case of Accident - Terms and Conditions</h2>
-                    <ul className="list-disc pl-6 text-gray-200 space-y-2">
+                <section className="bg-white p-6 rounded-lg border border-gray-400 shadow-lg hover:shadow-xl transition-shadow">
+                    <h2 className="text-xl font-semibold mb-4 text-black">(D) In Case of Accident - Terms and Conditions</h2>
+                    <ul className="list-disc pl-6 text-gray-800 space-y-2">
                         {accidentTerms.map((term, index) => (
                             <li key={index}>{term}</li>
                         ))}

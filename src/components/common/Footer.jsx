@@ -95,7 +95,7 @@ const Footer = () => {
                             Quick Links
                         </h3>
                         <div className="flex flex-col space-y-2.5">
-                            {['Bike Rent In Jaipur', 'Scooter Rent In Jaipur', 'Book Now', 'Contact Us'].map(link => (
+                            {['Bike Rent In Jaipur', 'Scooter Rent In Jaipur', 'Book Now', 'Contact Us' , 'Terms & Condition'].map(link => (
                                 <Link key={link}
                                     href={link === 'Book Now'
                                         ? 'https://order.jojobikerental.in/'
