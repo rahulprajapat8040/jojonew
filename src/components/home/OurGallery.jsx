@@ -1,5 +1,6 @@
 'use client'
 import { motion, useScroll, useTransform } from 'framer-motion'
+import Image from 'next/image'
 import { useRef, useState } from 'react'
 
 const OurGallery = ({ data }) => {
@@ -24,9 +25,9 @@ const OurGallery = ({ data }) => {
                     animate={{ opacity: 1, y: 0 }}
                     className="text-center mb-16"
                 >
-                    <h1 className="text-5xl md:text-7xl font-bold text-primaryColor mb-4">
+                    <h4 className="text-5xl md:text-7xl font-bold text-primaryColor mb-4">
                         Our Gallery
-                    </h1>
+                    </h4>
                     <p className="text-gray-600 text-lg">
                         Discover our premium collection
                     </p>
@@ -45,9 +46,11 @@ const OurGallery = ({ data }) => {
                             transition={{ delay: index * 0.1 }}
                             className="aspect-square relative group cursor-pointer overflow-hidden"
                         >
-                            <img
+                            <Image
+                                width={500}
+                                height={500}
                                 src={item.image}
-                                alt={item.name}
+                                alt={`our-gallery-${index}`}
                                 className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
                             />
                         </motion.div>

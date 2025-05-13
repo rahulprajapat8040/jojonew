@@ -41,12 +41,12 @@ const HeroSection = ({ data }) => {
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="max-w-3xl relative z-20 text-center">
               <div className="h-1 w-24 bg-primaryColor mb-8 " />
-              <h1 className="text-5xl md:text-7xl font-bold text-primaryColor mb-4">
+              <h2 className="text-5xl md:text-7xl font-bold text-primaryColor mb-4">
                 {data.heading1}
-              </h1>
-              <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-                {data.heading2}
               </h2>
+              <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
+                {data.heading2}
+              </h1>
               <p className="text-lg text-gray-100 mb-10 max-w-2xl mx-auto">
                 {data.paragraph}
               </p>

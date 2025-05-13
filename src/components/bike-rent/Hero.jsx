@@ -77,9 +77,9 @@ const Hero = ({ data }) => {
                 <source src={data.videoUrl} type="video/mp4" />
             </video>
             <div className="px-2 my-4 flex flex-col items-center justify-center md:mt-24 w-full max-w-6xl relative z-10">
-                <h1 className="text-4xl md:text-6xl font-bold text-white text-center mb-4">
+                <h2 className="text-4xl md:text-6xl font-bold text-white text-center mb-4">
                     {data.title}
-                </h1>
+                </h2>
                 {renderBreadcrumbs()}
                 <div className='mt-4'>
                     <button 

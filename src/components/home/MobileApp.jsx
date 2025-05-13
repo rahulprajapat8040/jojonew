@@ -8,8 +8,6 @@ import RentalModal from './RentalModal'
 const MobileApp = () => {
     const ref1 = useRef(null)
     const ref2 = useRef(null)
-    const inView1 = useInView(ref1, { once: true })
-    const inView2 = useInView(ref2, { once: true })
     const [isModalOpen, setIsModalOpen] = useState(false);
 
 
@@ -21,22 +19,19 @@ const MobileApp = () => {
                     ref={ref1}
                     className="max-w-6xl mx-auto px-4">
                     <div className='flex justify-center pt-0'> <Image src={'/JOJOLOGO.png'} width={150} height={150} alt='jojo-logo-dark' /></div>
-                    <h1 className="text-center  text-5xl font-semibold text-primaryColor drop-shadow-lg">Rent Faster, Better Experience</h1>
+                    <h3 className="text-center  text-5xl font-semibold text-primaryColor drop-shadow-lg">Rent Faster, Better Experience</h3>
                     <div className="flex flex-col md:flex-row items-center justify-center md:gap-32 w-full">
-                        <motion.div
-
-                            initial={{ y: 100, opacity: 0 }}
-                            animate={inView1 ? { y: 0, opacity: 1 } : {}}
-                            transition={{ delay: 2 }}
+                        <div
                             className="w-full md:w-1/2">
                             <Image
                                 src={'/assets/mobile-app.webp'}
                                 className="translate-y-0 md:translate-y-32 z-20 mx-auto"
                                 width={500}
                                 height={800}
+                                loading='lazy'
                                 alt="mobile-app"
                             />
-                        </motion.div>
+                        </div>
                         <div className="w-full md:w-1/2 mt-8 md:mt-0">
                             <ol className="space-y-6 md:space-y-8">
                                 <div className="flex">

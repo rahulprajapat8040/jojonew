@@ -394,6 +394,8 @@ const GalleryData = [
   {
     id: 7,
     image: "/assets/jojo-gall-img-7.jpeg",
+    name: "Bajaj Sports",
+
   },
   {
     id: 8,

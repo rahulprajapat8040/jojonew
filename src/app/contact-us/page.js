@@ -31,7 +31,7 @@ const ContatUs = () => {
                 <div
                     className="grid md:grid-cols-2 gap-16 items-center relative overflow-hidden p-8 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] before:absolute before:right-0 before:w-[300px] before:bg-primaryColor before:h-full max-md:before:hidden">
                     <div>
-                        <h2 className="text-gray-800 text-3xl font-bold">Get In Touch</h2>
+                        <h1 className="text-gray-800 text-3xl font-bold">Get In Touch</h1>
                         <p className="text-sm text-gray-500 mt-4 leading-relaxed">Have a specific inquiry or looking to explore new opportunities? Our
                             experienced team is ready to engage with you.</p>
 
@@ -113,7 +113,7 @@ const ContatUs = () => {
                         </ul>
                     </div>
                     <div className="z-10 relative h-full max-md:min-h-[350px]">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.492932138078!2d75.7976178!3d26.9195833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db3000e2d89d9%3A0x63f7ce5e8484544a!2sJoJo%20Rides%20-Bike%20Scooter%20Rental%20Jaipur!5e0!3m2!1sen!2sin!4v1737569215487!5m2!1sen!2sin" 
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.492932138078!2d75.7976178!3d26.9195833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db3000e2d89d9%3A0x63f7ce5e8484544a!2sJoJo%20Rides%20-Bike%20Scooter%20Rental%20Jaipur!5e0!3m2!1sen!2sin!4v1737569215487!5m2!1sen!2sin"
                             className="left-0 top-0 h-full w-full" frameBorder="0"
                             allowFullScreen></iframe>
                     </div>

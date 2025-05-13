@@ -9,17 +9,17 @@ const Testimonial = ({ data }) => {
       <section className="py-8 bg-white">
         <div className="max-w-6xl px-4 mx-auto">
           <div className="text-center mb-8">
-            <h1 className="text-3xl md:text-5xl drop-shadow-lg font-extrabold text-primaryColor">LATEST TESTIMONIAL</h1>
-            <h2 className="text-xl md:text-2xl text-gray-700 mt-2">What Clients Say About Us.</h2>
+            <h2 className="text-3xl md:text-5xl drop-shadow-lg font-extrabold text-primaryColor">LATEST TESTIMONIAL</h2>
+            <h3 className="text-xl md:text-2xl text-gray-700 mt-2">What Clients Say About Us.</h3>
           </div>
-          
+
           <div className="relative w-full overflow-hidden">
             <div className="overflow-hidden">
-              <motion.div 
+              <motion.div
                 className="flex gap-8"
                 initial={{ x: 0 }}
-                animate={{ 
-                  x: `-${(100/2) * data.length}%`  // Only move half the distance
+                animate={{
+                  x: `-${(100 / 2) * data.length}%`  // Only move half the distance
                 }}
                 transition={{
                   x: {
@@ -53,7 +53,7 @@ const Testimonial = ({ data }) => {
                     </div>
                   ))}
                 </div>
-                
+
                 {/* Duplicate set */}
                 <div className="flex gap-8 shrink-0">
                   {data.map((testimonial) => (

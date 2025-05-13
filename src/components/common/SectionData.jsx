@@ -13,7 +13,7 @@ const SectionData = ({ data }) => {
         <>
             <section className="pb-10 px-4 bg-gray-50">
                 <div className="max-w-6xl mx-auto">
-                    <h1 className='text-center text-5xl py-6 font-semibold text-black'>Our Blogs</h1>
+                    <h3 className='text-center text-5xl py-6 font-semibold text-black'>Our Blogs</h3>
                     <div className="space-y-8">
                         {data.map((item) => (
                             <div key={item.id} className="bg-white rounded-lg shadow-lg p-6 transition-all duration-300 hover:shadow-xl border-l-4 border-primaryColor">
